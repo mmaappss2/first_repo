@@ -10,41 +10,12 @@
   font-style: normal;
   font-weight: 700; }
 
-.main__header img {
-  line-height: 1;
-  text-align: center;
-  background-color: transparent;
-  padding-left: 3%;
-  font-family: Montserrat; }
+.colorh-fondo {
+  background-color: aqua; }
 
-.main__header ul {
-  float: initial;
-  width: 100%;
-  float: initial;
-  width: 90%;
-  margin-top: 1px; }
-
-.main__header ul li {
-  display: inline-block;
-  width: 11%;
-  padding: 5px 10px;
-  background-color: #000;
-  border: 1px solid #000;
-  text-align: center;
-  color: #ffffff;
-  font-size: 1rem; }
-
-.main__header a {
-  text-decoration: none;
-  color: #ffffff; }
-
-header nav ul {
-  font-size: 1.2rem; }
-
-header nav ul li {
-  display: inline-block;
-  width: 20%;
-  position: relative; }
+.logo_adecuado {
+  max-width: 60px;
+  margin: 5px 0px 6px 0px; }
 
 .main__h1 {
   font-size: 3rem;
@@ -82,10 +53,6 @@ main h2 {
 .main__ns__p {
   color: #ffffff;
   padding: 1% 10% 0% 40%; }
-
-.main__header img {
-  width: 6%;
-  margin: 1%; }
 
 .main__footer {
   display: block;
