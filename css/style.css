@@ -116,21 +116,26 @@ footer p {
 
 /* END página sobre nosotros*/
 /* Start página alimentacion*/
-.alimentacion__title {
-  color: #ffffff;
-  padding: 11% 10% 0% 50%;
+.img-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%; }
+
+.img-holder img {
+  display: block;
+  width: 100vw; }
+
+.img-holder p {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  right: 0;
+  transform: translate(0, -50%);
+  text-align: center;
+  color: #fff;
   text-shadow: 1px 1px 9px #000;
   font-size: 3.2rem;
-  font-weight: bolder; }
-
-.alimentacion__background {
-  background-image: url(../img/alimentacion1.jpg);
-  padding-top: 10%;
-  width: 100%;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain; }
+  font-weight: bold; }
 
 .alimentacion__container {
   position: relative;
