@@ -283,3 +283,10 @@ footer p {
     font-size: 20px;
     text-decoration: none;
   }
+
+  .al_fondo {
+    position:-webkit-sticky;
+    position:sticky;
+    bottom:0;
+    border-color:red;
+  }
