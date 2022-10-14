@@ -226,3 +226,21 @@ footer p {
   font-size: 1.1rem;
   text-align: center;
   padding: 10% 30% 2% 30%; }
+
+.scroll-container {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  height: 100%; }
+
+.scroll-container:before {
+  display: block;
+  height: 100vh;
+  pointer-events: none; }
+
+.scroll-container a {
+  position: sticky;
+  top: 88vh;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none; }
