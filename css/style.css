@@ -20,7 +20,7 @@
 .main__h1 {
   font-size: 3rem;
   padding-top: 20%;
-  padding-left: 70%;
+  padding-left: 120%;
   size: 100vw; }
 
 main h2 {
@@ -263,3 +263,18 @@ footer p {
 
 .nav-link {
   color: #000; }
+
+.mi_flip_diagonal {
+  animation-name: flip-diagonal-tr;
+  animation-duration: 2.2s;
+  animation-timing-function: ease;
+  animation-delay: 2.8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: both; }
+
+@keyframes mi_flip_diagonal {
+  0% {
+    transform: rotate3d(1, 1, 0, 0deg); }
+  100% {
+    transform: rotate3d(1, 1, 0, 180deg); } }

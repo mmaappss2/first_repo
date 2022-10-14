@@ -10,6 +10,7 @@
     font-style: normal;
     font-weight: 700;
 }
+
 .colorh-fondo {
     background-color: #cccccc;
 }
@@ -22,7 +23,7 @@
 .main__h1 {
     font-size: 3rem;
     padding-top: 20%;
-    padding-left: 70%;
+    padding-left: 120%;
     size: 100vw;
 }
 
@@ -95,7 +96,7 @@ footer p {
     box-shadow: 1px 0px 34px #6c6c6c;
 }
 
-.nosotros__container{
+.nosotros__container {
     position: relative;
     text-align: center;
     color: white;
@@ -104,7 +105,7 @@ footer p {
     margin-right: 30px;
 }
 
-.nosotros__container__img{
+.nosotros__container__img {
     margin-top: 30px;
     width: 100%;
     border-radius: 36px 36px 36px 36px;
@@ -113,7 +114,8 @@ footer p {
 
 .nosotros__centered {
     position: absolute;
-    top: 50%; left: 185%;
+    top: 50%;
+    left: 185%;
     right: -199%;
     transform: translate(-50%, -50%);
     font-size: 1.1rem;
@@ -131,7 +133,7 @@ footer p {
 .alimentacion__title {
     color: #ffffff;
     padding: 11% 10% 0% 50%;
-    text-shadow: 1px 1px 9px #000;   
+    text-shadow: 1px 1px 9px #000;
     font-size: 3.2rem;
     font-weight: bolder;
 }
@@ -144,9 +146,9 @@ footer p {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
-    }
+}
 
-.alimentacion__container{
+.alimentacion__container {
     position: relative;
     text-align: center;
     color: white;
@@ -154,8 +156,8 @@ footer p {
     margin-left: 9%;
     margin-right: 30px;
 }
-    
-.alimentacion__container__img{
+
+.alimentacion__container__img {
     margin-top: 30px;
     width: 100%;
     border-radius: 36px 36px 36px 36px;
@@ -164,7 +166,8 @@ footer p {
 
 .alimentacion__centered {
     position: absolute;
-    top: 50%; left: 185%;
+    top: 50%;
+    left: 185%;
     right: -199%;
     transform: translate(-50%, -50%);
     font-size: 1.1rem;
@@ -182,7 +185,7 @@ footer p {
 .cuidado__h2 {
     font-size: 2.2rem;
     text-align: center;
-    padding-top: 10%;   
+    padding-top: 10%;
 }
 
 .cuidado__container__ac {
@@ -193,7 +196,7 @@ footer p {
     margin-left: 9%;
     margin-right: 30px;
 }
-    
+
 .cuidado__container__img__ac {
     margin-top: 30px;
     width: 100%;
@@ -203,7 +206,8 @@ footer p {
 
 .cuidado__centered__ac {
     position: absolute;
-    top: 50%; left: 185%;
+    top: 50%;
+    left: 185%;
     right: -199%;
     transform: translate(-50%, -50%);
     font-size: 1.1rem;
@@ -223,7 +227,7 @@ footer p {
     margin-left: 56%;
     margin-right: 30px;
 }
-    
+
 .cuidado__container__img__b {
     margin-top: 30px;
     width: 100%;
@@ -259,50 +263,71 @@ footer p {
 .contacto_ppal {
     font-size: 1.1rem;
     text-align: center;
-    padding: 10% 30% 2% 30%;   
+    padding: 10% 30% 2% 30%;
 }
+
 .scroll-container {
     position: absolute;
     top: 0;
-    right:10px;
+    right: 10px;
     height: 100%;
-  }
+}
 
-  // to hide the button when page first loaded
-  .scroll-container:before {
+// to hide the button when page first loaded
+.scroll-container:before {
     display: block;
     height: 100vh;
     pointer-events: none;
-  }
+}
 
-  // fixed to right bottom of page
-  .scroll-container a {
+// fixed to right bottom of page
+.scroll-container a {
     position: sticky;
     top: 88vh;
     cursor: pointer;
     font-size: 20px;
     text-decoration: none;
-  }
+}
 
-  .al_fondo {
-    position:-webkit-sticky;
-    position:sticky;
-    bottom:0;
-    border-color:red;
-  }
+.al_fondo {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    border-color: red;
+}
 
-  .mi_propio_fixed {
+.mi_propio_fixed {
     position: fixed;
     bottom: 10px;
     right: 30px;
-   }
+}
 
-   .mi_propio_sticky {
+.mi_propio_sticky {
     position: sticky;
     bottom: 10px;
     right: 95%;
-   }
-   
-   .nav-link {
+}
+
+.nav-link {
     color: #000;
-   }
+}
+
+.mi_flip_diagonal {
+    animation-name: flip-diagonal-tr;
+    animation-duration: 2.2s;
+    animation-timing-function: ease;
+    animation-delay: 2.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+}
+
+
+@keyframes mi_flip_diagonal {
+    0% {
+        transform:rotate3d(1,1,0,0deg);
+    }
+    100% {
+        transform:rotate3d(1,1,0,180deg);
+    }
+}
