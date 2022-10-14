@@ -49,10 +49,14 @@ main h2 {
 
 .main__ns__title {
   color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 7px black;
   padding: 6% 10% 0% 40%; }
 
 .main__ns__p {
   color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 7px black;
   padding: 1% 10% 0% 40%; }
 
 .main__footer {
