@@ -265,16 +265,18 @@ footer p {
   color: #000; }
 
 .mi_flip_diagonal {
-  animation-name: flip-diagonal-tr;
-  animation-duration: 2.2s;
-  animation-timing-function: ease;
-  animation-delay: 2.8s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
-  animation-fill-mode: both; }
+  animation: flip-diagonal-2-br 4s cubic-bezier(0.455, 0.03, 0.515, 0.955) 4s infinite both; }
 
-@keyframes mi_flip_diagonal {
+@keyframes flip-diagonal-2-br {
   0% {
+    transform: rotate3d(-1, 1, 0, 0deg); }
+  20% {
+    transform: rotate3d(-1, 1, 0, 180deg); }
+  40% {
+    transform: rotate3d(1, -1, 0, 0deg); }
+  60% {
     transform: rotate3d(1, 1, 0, 0deg); }
+  80% {
+    transform: rotate3d(0, -1, 0, 0deg); }
   100% {
-    transform: rotate3d(1, 1, 0, 180deg); } }
+    transform: rotate3d(1, -1, 0, 0deg); } }
