@@ -290,3 +290,15 @@ footer p {
     bottom:0;
     border-color:red;
   }
+
+  .mi_propio_fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+   }
+
+   .mi_propio_sticky {
+    position: sticky;
+    bottom: 10px;
+    right: 30px;
+   }
